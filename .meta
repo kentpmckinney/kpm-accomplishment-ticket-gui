@@ -1,6 +1,6 @@
 Categories: `Achievement`
 Technologies: `PowerShell`
-Summary: `Tool used by a desktop support team to review tickets`
+Summary: `Tool that revolutionized ticket reviews for a desktop support team`
 Description: `
 Company: Healthesystems
 Year: 2014
@@ -9,9 +9,9 @@ Purpose: During my tenure at Healthesystems, IT support tickets were created in 
 
 My Role: I assumed the task on my own initiative (with permission).
 
-Outcome: The daily ticket report was interesting enough to management that I was asked to create similar reports for other teams. Our team used the daily ticket report email to review tickets as part of our continuous improvement.
+Outcome: The daily ticket report was able to pull much more data than what was previously available, and it was interesting enough to management that I was asked to create similar reports for other teams. Our team used the daily ticket report email to review tickets as part of our continuous improvement.
 
-Technical Details: a non-GUI ticket-data upload script ran via a scheduled task. It triggered a VBScript macro in an Excel spreadsheet which retrieved fresh data from SharePoint and then dumped it to CSV. The script then read the CSV data, and uploaded it to a SQL table. Then, an email report script ran several SQL queries and formatted the results as HTML. It then sent the generated email message to the team. The pictures on the left are of a related GUI written in PowerShell and compiled into an executable by PowerShell Studio. The GUI streamlined the ticket review process for our team. I added JIRA support later on since that was likely to supersede SharePoint as the next ticket platform.
+Technical Details: a non-GUI ticket-data upload script ran via a scheduled task. It triggered a VBScript macro in an Excel spreadsheet which retrieved fresh data from SharePoint and then dumped it to CSV. The script then read the CSV data, and uploaded it to a SQL table. Then, an email report script ran several SQL queries and formatted the results as HTML. It then sent the generated email message to the team. The screenshot shows a GUI written in PowerShell and compiled into an executable by PowerShell Studio. The GUI streamlined the ticket review process for our team. I added JIRA support later on since that was likely to supersede SharePoint as the next ticket platform.
 `
 Instructions: ``
 Demolink: ``
